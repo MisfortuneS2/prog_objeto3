@@ -7,9 +7,12 @@ class Cone{
     }
 
     // cálculo da área da base
-    calcularVol(){
-        return (Math.PI * (this.raio * this.raio) * this.altura) / 3
+    calcularAB(){
+        return Math.PI * (this.raio * this.raio)
     }
 
     //cálculo do volume
+    calcularVol(){
+        return (Math.PI * (this.raio * this.raio) * this.altura) / 3
+    }
 }
