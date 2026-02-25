@@ -16,3 +16,5 @@ class Cone{
         return (Math.PI * (this.raio * this.raio) * this.altura) / 3
     }
 }
+
+module.exports = Cone

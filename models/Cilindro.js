@@ -26,3 +26,5 @@ class Cilindro{
         return (this.calcularAB * 2) + this.calcularAL
     }
 }
+
+module.exports = Cilindro
